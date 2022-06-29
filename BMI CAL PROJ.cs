@@ -11,16 +11,16 @@ namespace BMI_CAL_PROJ
         static void Main(string[] args)
         {
 
-			//Variables to be declaired
+			//declaired ariables
 			int weight;
 			int height;
 			int bmi;
 
 
-			Console.WriteLine("Please Enter your height in inches: "); //Asks user for their height in inches
+			Console.WriteLine("Please Enter your height in inches: "); //Asks user for their height 
 			height = Convert.ToInt32(Console.ReadLine());
 
-			Console.WriteLine("Enter your weight in pounds: "); //Asks user for their weight in pounds
+			Console.WriteLine("Enter your weight in pounds: "); //Asks user for their weight 
 			weight = Convert.ToInt32(Console.ReadLine());
 
 
@@ -38,3 +38,6 @@ namespace BMI_CAL_PROJ
 		}
     }
 }
+
+
+// https://www.cdc.gov/obesity/basics/adult-defining.html#:~:text=If%20your%20BMI%20is%20less,falls%20within%20the%20obesity%20range.
